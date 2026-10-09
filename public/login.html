@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Entrar | Afro Biblioteca</title><link rel="icon" type="image/png" href="/logo-cpm.png"><link rel="stylesheet" href="/style.css"><script src="/login.js" defer></script></head>
+<body class="pagina-login">
+<main class="cartao-login">
+ <a class="voltar-acervo" href="/">← Voltar ao acervo</a>
+ <div class="marca-login"><img src="/logo-cpm.png" alt="Brasão do colégio"><div><h1>Afro Biblioteca</h1><p>Colégio da Polícia Militar Eraldo Tinoco</p></div></div>
+ <div class="titulo-login"><h2>Acesso administrativo</h2><p>Entre para acessar o acervo e a gestão.</p></div>
+ <form id="formLogin">
+  <label>Usuário<input id="usuarioLogin" name="username" autocomplete="username" required maxlength="120" autocapitalize="none" spellcheck="false"></label>
+  <label>Senha<input id="senhaLogin" name="password" type="password" autocomplete="current-password" required maxlength="512"></label>
+  <label class="check mostrar-senha"><input id="mostrarSenha" type="checkbox" aria-controls="senhaLogin"> Mostrar senha</label>
+  <p id="erroLogin" class="erro" role="alert" hidden></p>
+  <button id="entrarLogin" type="submit" class="principal">Entrar</button>
+ </form>
+ <p class="local-login">Vitória da Conquista · Bahia</p>
+</main>
+</body></html>
